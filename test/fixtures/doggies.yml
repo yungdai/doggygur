@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner: MyString
+  dog_name: MyString
+  dog_breed: MyString
+  url: MyString
+
+two:
+  owner: MyString
+  dog_name: MyString
+  dog_breed: MyString
+  url: MyString
