@@ -1,0 +1,22 @@
+<h1>Add a picture</h1>
+<%= form_for @doggie do |f| %>
+    <p>
+      <%= f.label "owner" %><br>
+      <%= f.text_field "owner" %>
+    </p>
+    <p>
+      <%= f.label "dog_name" %><br>
+      <%= f.text_field "Dog Name" %>
+    </p>
+    <p>
+      <%= f.label "dog_breed" %><br>
+      <%= f.text_field "Dog Breed" %>
+    </p>
+    <p>
+      <%= f.label "url" %><br>
+      <%= f.text_field "url" %>
+    </p>
+    <p>
+      <%= f.submit "Save" %>
+    </p>
+<% end %>

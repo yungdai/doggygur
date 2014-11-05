@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # this makes sure that the root of the website always goes to pictures/index.hmtl.erb
-  root 'pictures#index'
+  root 'doggypics#index'
 
   # all of the commented out code below resources :pictures line is the old code that is all being incorporated
   # into 'resources :pictures'

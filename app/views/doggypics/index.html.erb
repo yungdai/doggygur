@@ -1,1 +1,7 @@
 <h1>Doggies, Doggies, Doggies!  *Squirrel!*</h1>
+<%= link_to 'New Dog', '/doggypics/new' %>
+
+<% @doggies.each do |dog| %>
+    <p>Owner: <%= dog.owner %>, Dog Name: <%= dog.dog_name %>, Dog Breed:  <%= dog.dog_breed %></p>
+    <img src="<%= dog.url %>">
+<% end %>
