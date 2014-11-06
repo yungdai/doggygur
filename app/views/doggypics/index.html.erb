@@ -3,5 +3,5 @@
 
 <% @doggies.each do |dog| %>
     <p>Owner: <%= dog.owner %>, Dog Name: <%= dog.dog_name %>, Dog Breed:  <%= dog.dog_breed %></p>
-    <img src="<%= dog.url %>">
+    <%= link_to image_tag(dog.url), "/doggypics/#{dog.id}" %>
 <% end %>

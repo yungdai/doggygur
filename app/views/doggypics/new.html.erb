@@ -1,24 +1,24 @@
-<h1>Add a picture</h1>
+<h1>Add a dog</h1>
 <!-- adding a link to go index.html.erb file -->
 <%= link_to "Back to Dogs", doggypics_url %>
 
 <!-- doggypics_path forces rails to use the doggypics/ path for my object. -->
-<%= form_for doggypics_path(@doggie) do |f| %>
+<%= form_for @doggie, :url => doggypics_path  do |f| %>
     <p>
       <%= f.label "owner" %><br>
-      <%= f.text_field "owner" %>
+      <%= f.text_field :owner %>
     </p>
     <p>
       <%= f.label "dog_name" %><br>
-      <%= f.text_field "Dog Name" %>
+      <%= f.text_field :dog_name %>
     </p>
     <p>
       <%= f.label "dog_breed" %><br>
-      <%= f.text_field "Dog Breed" %>
+      <%= f.text_field :dog_breed %>
     </p>
     <p>
       <%= f.label "url" %><br>
-      <%= f.text_field "url" %>
+      <%= f.text_field :url %>
     </p>
     <p>
       <%= f.submit "Save" %>

@@ -9,10 +9,14 @@ class DoggypicsController < ApplicationController
     @doggie = Doggies.new
   end
 
+  def edit
+    @doggie = Doggies.find(params[:id])
+  end
+
   def create
     @doggie = Doggies.new(doggies_params)
     if @doggie.save
-      redirect_to doggypic_url
+      redirect_to doggypics_url
     else
       render :new
     end
@@ -20,6 +24,12 @@ class DoggypicsController < ApplicationController
 
   def show
     @doggie = Doggies.find(params[:id])
+  end
+
+  def destroy
+    @doggie = Doggies.find(params[:id])
+    @doggie.destroy
+    redirect_to doggypic_url
   end
 
   private

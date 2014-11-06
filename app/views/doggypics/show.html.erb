@@ -1,2 +1,6 @@
+<%= link_to "Back to Dogs", doggypic_url %> | <%= link_to "Edit", edit_doggypic_path(@doggie) %> | <%= link_to "Delete", doggypic_path(@doggie), method: :delete, data: {confirm: "Are you sure you want to delete this Dog?"}  %>
+
+
+
 <p>Owner: <%= @doggie.owner %>, Dog Name: <%= @doggie.dog_name %>, Breed: <%= @doggie.dog_breed %></p>
 <img src="<%= @doggie.url %>">

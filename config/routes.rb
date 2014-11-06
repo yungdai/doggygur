@@ -2,6 +2,9 @@ Rails.application.routes.draw do
   # this makes sure that the root of the website always goes to pictures/index.hmtl.erb
   root 'doggypics#index'
 
+  #
+  # get 'doggypics/:id/edit' => "doggypics#edit", as: "edit_picture"
+  # patch 'doggypics/:id' => "doggypics#update"
   # all of the commented out code below resources :pictures line is the old code that is all being incorporated
   # into 'resources :pictures'
   resources :doggypics
