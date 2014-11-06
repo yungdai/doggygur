@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails doggygur: development" uuid="3de5b7a1-5c40-474a-92f4-0bb9f5a8e690">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails doggygur: production" uuid="e4622cee-10f0-47fc-876c-944a2149a0c8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

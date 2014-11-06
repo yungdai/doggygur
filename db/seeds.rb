@@ -6,15 +6,15 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Doggies.create!(
-    :owner  => "Unknown",
-    :dog_name => "Bumper",
+    :owner  => "Some guy",
+    :dog_name => "Cutie Pie",
     :dog_breed    => "Golden Retriever",
     :url => "http://media1.santabanta.com/full1/Animals/Dogs/dogs-87a.jpg"
 )
 
 Doggies.create!(
-    :owner  => "Yung and Tim",
-    :dog_name => "Darwin",
-    :dog_breed    => "Miniature Schnauzer",
-    :url => "https://www.facebook.com/photo.php?fbid=42143531400&l=62237f0e69"
+    :owner  => "Other Guy",
+    :dog_name => "Wrinkly",
+    :dog_breed    => "Sharpai",
+    :url => "http://www.hdwallsource.com/img/2014/8/cute-dogs-14460-14910-hd-wallpapers.jpg"
 )
