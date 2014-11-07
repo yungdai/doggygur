@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails doggygur: production" uuid="e4622cee-10f0-47fc-876c-944a2149a0c8">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails doggygur: test" uuid="0c0fff50-a054-45e5-a26c-ceaf7bcdae1f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

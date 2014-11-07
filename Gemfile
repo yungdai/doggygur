@@ -5,9 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.7'
 # Use postgresQL as the database for Active Record
 
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 # Use SCSS for stylesheets
 # use Bootstrap stylesheets
@@ -15,6 +13,9 @@ gem 'bootstrap-sass', '~> 3.3.0'
 gem 'sass-rails', '~> 4.0.3'
 
 gem 'autoprefixer-rails'
+
+# installing Mercury for Rails
+gem 'mercury-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
