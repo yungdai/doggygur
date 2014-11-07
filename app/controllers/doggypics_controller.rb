@@ -1,7 +1,5 @@
 class DoggypicsController < ApplicationController
   # This is the main index page /doggypics/index.html.erb
-  protect_from_forgery with: :exception
-
   def index
     @doggies = Doggies.all
   end

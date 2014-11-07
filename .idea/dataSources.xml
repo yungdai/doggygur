@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1311673503">
+  <component name="DataSourceManagerImpl" format="xml" hash="1438394915">
     <data-source source="LOCAL" name="Rails doggygur: development" uuid="3de5b7a1-5c40-474a-92f4-0bb9f5a8e690">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -8,12 +8,6 @@
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails doggygur: production" uuid="e4622cee-10f0-47fc-876c-944a2149a0c8">
-      <driver-ref>postgresql</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/photogur</jdbc-url>
-      <libraries />
-    </data-source>
-    <data-source source="LOCAL" name="Rails doggygur: test" uuid="0c0fff50-a054-45e5-a26c-ceaf7bcdae1f">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/photogur</jdbc-url>

@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  Mercury::Engine.routes
   # this makes sure that the root of the website always goes to pictures/index.hmtl.erb
   root 'doggypics#index'
 
