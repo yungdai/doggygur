@@ -29,7 +29,7 @@ class DoggypicsController < ApplicationController
   def destroy
     @doggie = Doggies.find(params[:id])
     @doggie.destroy
-    redirect_to doggypic_url
+    redirect_to doggypics_url
   end
 
   private

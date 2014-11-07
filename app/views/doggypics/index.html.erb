@@ -1,7 +1,15 @@
 <h1>Doggies, Doggies, Doggies!  *Squirrel!*</h1>
 <%= link_to 'New Dog', '/doggypics/new' %>
 
+
 <% @doggies.each do |dog| %>
-    <p>Owner: <%= dog.owner %>, Dog Name: <%= dog.dog_name %>, Dog Breed:  <%= dog.dog_breed %></p>
+    <p>Owner: <%= dog.owner %></p>
+    <p>Dog Name: <%= dog.dog_name %>
+    <p>Dog Breed:  <%= dog.dog_breed %></p>
     <%= link_to image_tag(dog.url), "/doggypics/#{dog.id}" %>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="line-separator"></div>
 <% end %>
