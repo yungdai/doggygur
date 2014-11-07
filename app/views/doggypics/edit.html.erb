@@ -3,7 +3,7 @@
 <h1>Edit Picture</h1>
 
 <p>
-<%= link_to "Back", doggypics_url %>
+<%= render 'backhome' %>
 </p>
 
 <%= form_for @doggie, :url => doggypic_path(@doggie)  do |f| %>
